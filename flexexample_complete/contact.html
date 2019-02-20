@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Gestalt Principles: Contact Sample Form</title>
+        
+        <meta name="description" content="A sample contact form.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <!-- adding in css link to custom stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- css link to normalize and html5 stylesheet -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- adding javascript from html5 boilerplate -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        
+        
+        
+        <!-- adding a Google font, Open Sans -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+        
+    </head>
+    
+
+<body>
+    <!-- note for IE 8, from HTML5 Boilerplate -->
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+<header>
+    <div id="display">
+    <h1><a href="index.html">Gestalt Design</a></h1>
+    
+    <nav id="desktop">
+        <ul>
+            <li><a href="principles.html">the principles</a></li>
+            <li><a href="about.html">about</a></li>
+            <li class="active">contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    <nav id="mobile">
+        <div id="trigger">
+            <img src="img/menu.svg" alt="mobile menu"/>
+        </div>
+        
+        <ul id="menu">
+            <li><a href="principles.html">the principles</a></li>
+            <li><a href="about.html">about</a></li>
+            <li class="active">contact</a></li>
+        </ul>
+    </nav>
+    <div class="clear-fix"></div>
+</header>
+    
+<div id="main-content">
+    <h2 class="form-title">Contact Sample Form</h2>
+
+    <div id="form-display">
+    <form action="mailto:beckysell1@gmail.com" method="post" enctype="multipart/form-data" name="Test Email">
+        
+    <div class="field">
+    <p>First Name:</p>
+    <p><input type="text" name="first name" maxlength="20"></p>
+    </div><!-- close div field -->
+    
+    <div class="field">
+    <p>Last Name:</p> 
+    <p><input type="text" name="first name" max-length="20"></p>
+    </div><!-- close div field -->
+    
+    <div class="field">
+        <p>Email Address:</p> 
+        <p><input type="text" name="email address" maxlength="40"></p>
+    </div><!-- close div field -->
+        
+    <div class="field">
+        <p>Send a message:</p> 
+        <p><textarea maxlength="300" cols="40" rows="5">300 character max</textarea></p>
+    </div><!-- close div field -->
+        
+        
+    <div id="button">
+    <p>
+    <input id="reset" type="reset" value="Reset">
+    <input id="submit" type="submit" value="Email This Form"></p> 
+    </div>
+    </form>
+</div><!-- close form-display div -->
+</div><!-- close main-content div -->
+    
+<footer>
+    &copy; 2018
+</footer> 
+    
+<!-- script for the mobile toggle menu, with calls to files from HTML5 Biolerplate -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">        </script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+<!-- script for toggle mobile menu, same as Nick's demo in class -->
+    <script>
+	   $(function(){
+		       $("#mobile ul").css("display", "none");
+		       $("#trigger").on("click", function(){
+			      $("#mobile ul").slideToggle(); 
+		       });  
+	        });
+	    </script>
+
+    
+</body>
+</html>
+    

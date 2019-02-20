@@ -1,0 +1,430 @@
+/* GLOBAL ELEMENTS */
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F0F0;
+}
+
+header {
+    background-color: #FFFFFF; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+header h1 {
+    width: 360px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    color: #90C3D4;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #90C3D4;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out .5s;
+}
+
+h1 a:hover {
+    border-color: #c3d490;
+    color: #c3d490;
+}
+
+#trigger {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    display: block;
+}
+
+#main-content {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-content p {
+    color: #505050;
+    padding: 20px 30px 20px 30px;
+    text-align:left;
+    max-width: 800px;
+}
+
+#main-content ul {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-content li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: block;
+    margin-right: 45px;
+    border-top: solid 1px #c3d490;
+    text-align: center;
+}
+
+#main-content li a {
+    text-decoration: none;
+    color: #7e7e7e;
+    transition: all ease-in-out .25s;
+}
+
+#main-content li a:active, #main-content li a:hover {
+    color: #c3d490;   
+}
+
+h3 {
+    font-size: 1em;
+    font-family: 'Libre Baskerville', serif;
+    color: #7e7e7e;
+}
+
+nav a {
+    color: #52707A;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out .5s;
+}
+
+nav a:hover {
+    color: #c3d490;
+    border-color: #c3d490;
+}
+
+.active {
+    color: #c3d490;
+}
+
+#mobile .active {
+    border-bottom: 3px solid #FFFFFF;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: .9em;
+    color: #2a2a2a;
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image video {
+    width: 100%;
+}
+
+#main-image img {
+    width: 100%;
+}
+
+#main-image h2 {
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    margin-top: -200px;
+    text-shadow: 2px 2px #BBBBBB;
+}
+
+.col-content {
+    display: flex; 
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.col-content h2 {
+    font-size: 2.2em; 
+    width: 33%;
+    font-family: 'Libre Baskerville', serif;
+    color: #BBBBBB;
+}
+
+.col-content p {
+    width: 66%;
+    padding-left: 0px;
+}
+
+.learn-more {
+    font-size: 1.5em; 
+    font-family: 'Libre Baskerville', serif;
+    color: #BBBBBB;
+}
+
+footer {
+    background-color: #E0E0E0;
+    font-size: .7em;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* PRINCIPLES PAGE */
+
+.title-principles {
+    font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
+    color: #BBBBBB;
+    width: 100%; 
+    margin-left: 150px;
+}
+.principle {
+    margin: 12px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.principle h3 {
+    text-align: center;   
+} 
+
+.principle2 {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #c3d490;
+}
+
+.principle-img {
+    margin: auto;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+/* CONTACT PAGE */
+
+.form-title {
+    font-size: 1.5em; 
+    font-family: 'Libre Baskerville', serif;
+    color: #BBBBBB;
+}
+
+#form-display {
+    background-color: #DDDDDD;  
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#form-display p {
+    color: #707070;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+
+textarea {
+    border: 1px solid #E0E0E0;
+    color: #707070;
+}
+
+textarea:focus {
+    background-color: rgba(144,195,212, .2); 
+    outline: none;
+    transition: all ease-in-out .25s;
+}
+
+input[type=text]{
+    border: 1px solid #E0E0E0;  
+    width: 200px;
+}
+
+input[type=text]:focus {
+    background-color: rgba(144,195,212, .2); 
+    width: 200px;
+    outline: none;
+    transition: all ease-in-out .25s;
+}
+
+input#reset, input#reset:active {
+    background-color: #F0F0F0;
+    outline: none;
+    transition: all ease-in-out .5s;
+}
+
+input#reset:hover, input#reset:active {
+    background-color: #90C3D4;
+    color: #FFFFFF;
+}
+
+input#submit, input#submit:active {
+    background-color: #F0F0F0;
+    outline: none;
+    transition: all ease-in-out .5s;
+}
+
+input#submit:hover, input#submit:active {
+    background-color: #90C3D4;
+    color: #FFFFFF;
+}
+
+#button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+
+
+/*------ Mobile Menu and Display -------*/
+
+@media screen and (max-width: 767px) {
+    #desktop {
+        display: none;
+    }
+    
+    header h1 {
+        font-size: 2.25em;
+        width: 280px;
+    }
+    
+    #main-image {
+        height: 300px;
+    }
+    
+    #mobile ul {
+        background-color: #F0F0F0;
+        margin: 10px 0 10px 0;
+        padding-bottom: 10px;
+    }
+    
+    #mobile li a {
+        border-bottom: 3px solid #FFFFFF;
+        padding: 10px;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display:inline-block;
+    }
+    
+    #mobile li a:active, #mobile li a:hover {
+        background-color: #E0E0E0;
+    }
+    
+    form {
+        width: 90%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    form input {
+        width: 150px;
+    }
+
+}
+
+/* ---------- Desktop Menu ------------*/
+@media screen and (min-width: 768px) {
+    #mobile {
+        display: none;
+    }
+    
+    header h1 {
+        width: 40%;
+        margin-left: 20px;
+    }
+    
+    #desktop {
+        display: flex;
+        align-items: center;
+    }
+    
+    #desktop ul {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding:0;
+    }
+    
+    #desktop li {
+        padding: 5px 15px 5px 15px;
+        
+    }
+    
+    #display {
+        display: flex;
+        max-width: 960px;
+        justify-content: center;
+    }
+    
+    #main-content {
+        position: relative;
+        overflow: hidden; 
+    }
+    
+    #main-inside {
+         max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .principle {
+        width: 27%;
+        float: left;
+    }
+    
+    .principle2 {
+        height: 400px;
+    }
+    .clear-fix {
+        clear: both;   
+    }
+    
+}
+
+/*--------- 2 column tablet ----------*/
+@media screen and (min-width: 768px)
+                and (max-width: 1023px){
+    
+    .principle {
+          width: 40%; 
+    }
+                    
+    #main-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

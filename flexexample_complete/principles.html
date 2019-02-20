@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Gestalt Principles: The Principles of Design</title>
+        
+        <meta name="description" content="The main principles of Gestalt design">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <!-- adding in css link to custom stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- css link to normalize and html5 stylesheet -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- adding javascript from html5 boilerplate -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        
+        
+        
+        <!-- adding a Google font, Open Sans -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+        
+    </head>
+    
+<body>
+    <!-- note for IE 8, from HTML5 Boilerplate -->
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<header>
+    <div id="display">
+    <h1><a href="index.html">Gestalt Design</a></h1>
+    
+    <nav id="desktop">
+        <ul>
+            <li class="active">the principles</li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    <nav id="mobile">
+        <div id="trigger">
+            <img src="img/menu.svg" alt="mobile menu"/>
+        </div>
+        
+        <ul id="menu">
+            <li class="active">the principles</li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <div class="clear-fix"></div>
+</header>
+    
+<div>
+<h2 class="title-principles">The Principles of Gestalt</h2>
+    <!-- http://vanseodesign.com/web-design/gestalt-principles-of-perception/ -->
+</div>
+
+<div id="main-content">
+<div id="main-inside">
+
+<div class="principle">
+    <h3>Pragnanz, or Good Figure</h3>
+    <div class="principle2">
+        <p>People will organize elements into the simplest pattern.</p>
+    <div class="principle-img">
+        <img src="img/good-figure.svg" alt="Good Figure, Praganz example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">
+    <h3>Figure/Ground</h3>
+    <div class="principle2">
+        <p>People perceive shapes as either the part in focus (the figure) or the background (the ground).</p>
+        <div class="principle-img">
+        <img src="img/figure-ground.svg" alt="Figure-Ground example">
+</div>
+    </div>
+    </div>
+
+<div class="principle">
+    <h3>Similarity</h3>
+    <div class="principle2">
+        <p>Visual elements that are similar, such as shape, size and color, are perceived as related.</p>
+    <div class="principle-img">
+        <img src="img/similarity.svg" alt="Similarity example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">   
+    <h3>Closure</h3>
+    <div class="principle2">
+        <p>When looking at a complex arrangement, we tend to look for one recognizable pattern.</p>
+    <div class="principle-img">
+        <img src="img/closure.svg" alt="Closure example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">
+    <h3>Symmetry</h3>
+    <div class="principle2">
+        <p>We see objects as symmetrical shapes that form around a center point.</p>
+    <div class="principle-img">
+        <img src="img/symmetry.svg" alt="Symmetry example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">
+    <h3>Common Fate</h3>
+    <div class="principle2">
+        <p>Elements that change at the same time, or in the same direction, are seen as a group.</p>
+    <div class="principle-img">
+        <img src="img/common-fate.svg" alt="Common Fate example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">
+    <h3>Proximity</h3>
+    <div class="principle2">
+        <p>Items that are close together are seen as a group.</p>
+    <div class="principle-img">
+        <img src="img/proximity.svg" alt="Proximity example">
+    </div>
+    </div>
+</div>
+
+<div class="principle">
+    
+    <h3>Good Continuation</h3>
+    <div class="principle2">
+        <p>Items that form a straight line are seen as a group.</p>
+    <div class="principle-img">
+        <img src="img/continuation.svg" alt="Continuation example">
+    </div>
+    </div>
+</div>
+
+
+<div class="principle">   
+    <h3>Law of Past Experience</h3>
+    <div class="principle2">
+        <p>At times, people see visual perceptions and organize based on past experience.</p>
+    <div class="principle-img">
+        <img src="img/past-experience.svg" alt="Past Experience example">
+    </div>
+    </div>
+</div> 
+
+ </div>
+</div>
+
+    
+<footer>
+    &copy; 2018
+</footer> 
+    
+<!-- script for the mobile toggle menu, with calls to files from HTML5 Biolerplate -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">        </script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+<!-- script for toggle mobile menu, same as Nick's demo in class -->
+    <script>
+	   $(function(){
+		       $("#mobile ul").css("display", "none");
+		       $("#trigger").on("click", function(){
+			      $("#mobile ul").slideToggle(); 
+		       });  
+	        });
+	    </script>
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Gestalt Principles: Laws of Visual Perception</title>
+        
+        <meta name="description" content="A website about the definitions of The Gestalt Principles and design.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <!-- adding in css link to custom stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- css link to normalize and html5 stylesheet -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- adding javascript from html5 boilerplate -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        
+        
+        
+        <!-- adding a Google font, Open Sans -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+        
+        
+        
+    </head>
+    
+    
+    
+<body>
+    <!-- note for IE 8, from HTML5 Boilerplate -->
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+<header>
+    <div id="display">
+    <h1><a href="index.html">Gestalt Design</a></h1>
+    
+    <nav id="desktop">
+        <ul>
+            <li><a href="principles.html">the principles</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    <nav id="mobile">
+        <div id="trigger">
+            <img src="img/menu.svg" alt="mobile menu"/>
+        </div>
+        
+        <ul id="menu">
+            <li><a href="principles.html">the principles</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <div class="clear-fix"></div>
+</header>
+    
+<div id="main-image">
+    <video muted autoplay><source src="img/IMG_8649.mp4"></video>
+     <h2>What does Gestalt mean to design?</h2>
+</div>
+    
+<div id="main-content">
+        <p>As humans look at the world around them, our mind attemps to organize the information we see, linking components together and seeing shapes and objects. It is specifically Gestalt Psychologies work in visual perception that applies to design.</p>
+    
+        <p>The theory behind gestalt works into ten main principles that play into how this organization happens. For any designer, these play closely into how we organize and communicate.</p>
+    <!-- http://designshack.net/articles/inspiration/design-science-what-is-gestalt-theory/ -->
+</div>
+    
+<footer>
+    &copy; 2018
+</footer> 
+    
+<!-- script for the mobile toggle menu, with calls to files from HTML5 Biolerplate -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">        </script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+<!-- script for toggle mobile menu, same as Nick's demo in class -->
+    <script>
+	   $(function(){
+		       $("#mobile ul").css("display", "none");
+		       $("#trigger").on("click", function(){
+			      $("#mobile ul").slideToggle(); 
+		       });  
+	        });
+	    </script>
+
+    
+</body>
+</html>
