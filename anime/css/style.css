@@ -1,3 +1,9 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ----------------- ROW 1: landing page ---------------- */
 #row1 {
     background-color: darkcyan;
     height: 700px;
@@ -17,10 +23,14 @@ h1 {
     align-items: center;
 }
 
+
+/* ---------- ROW 2: 2 boxes, animated with anime.js ----*/
 #row2 {
     margin: 200px;
 }
 
+
+/* --------- ROW 3: Text and Divs to play with --------- */
 #row3 {
     background-color:darkkhaki;
     height: 800px;
@@ -45,6 +55,23 @@ h1 {
     font-size: 42px;
 }
 
+/* ----------- ROW 3half (4th content area): horizontal sliding text done with Scroll Magic ------------*/
+#row3half {
+    background-color: #abc;
+    height: 700px;
+    width: 100%;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+#animate-text {
+    opacity: 1;   
+}
+
 .flex-cont {
     height: 800px;
     display: flex;
@@ -52,6 +79,7 @@ h1 {
     justify-content: center;
 }
 
+/* ------ ROW 4: horizontal sliding content done with css ----*/
 #row4 {
     background-color: #FFF; 
     width: 800px;
@@ -79,16 +107,53 @@ h1 {
     transform-origin: center center;
 }
 
+/* ---------- horizontal sliding content done with ScrollMagic -------- */
+#pinned-cont {
+    width: 100vw;
+    height: 100vh;
+}
+
+#sliding-cont {
+    background-color: #FFF; 
+    width: 700vw;
+    height: 80vh;
+    color: #fff;
+}
+    
+.slidingbox {
+    width: 100vw;
+    height: 80vh;
+    background-color: #CBACBA;
+    border: solid 10px;
+}
+
+/* ------- A big block of text and background to play with ----*/
 #row5 {
-    background-color: #342342; 
-    width: 100%;
-    height: 2000px;
+    background-color: #2727; 
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#row5 p {
+.fade-text {
+    font-family:fantasy;
+    font-size: 80px;
+    color: #FFF;
+}
+
+/*----------- ROW 6: A final big row! ------------*/
+#row6 {
+    background-color: #572; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row6 p {
     font-family:fantasy;
     font-size: 80px;
     color: #FFF;
